@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd3d01eddcedb04c8e9bd76ec8c3819, type: 3}
+  m_Name: Terrian
+  m_EditorClassIdentifier: 
+  m_nodeData:
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.HeightOutputNode
+    jsonData: '{"m_groupId":"","m_id":"8011a56f-2e64-40cd-aa79-dde4d2b887ed","m_visualState":{"m_position":{"x":2796.250244140625,"y":-591.4497680664063},"m_collapsed":false},"m_shouldSplitExecution":false,"m_isBypassed":false}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.NoiseNode
+    jsonData: '{"m_groupId":"","m_id":"7655c33d-3383-4482-9666-98618263eb02","m_visualState":{"m_position":{"x":2354.300048828125,"y":-582.1000366210938},"m_collapsed":false},"m_shouldSplitExecution":false,"m_isBypassed":false,"m_resolutionOverride":1,"m_resolutionMultiplier":1.0,"m_resolutionAbsolute":1024,"m_offset":{"x":0.0,"y":0.0},"m_scale":500.0,"m_lacunarity":2.0,"m_persistence":0.3333333432674408,"m_layerCount":4,"m_mode":1,"m_seed":776,"m_warpMode":0,"m_warpAngleMin":-360.0,"m_warpAngleMax":360.0,"m_warpIntensity":1.0,"m_remapCurve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":0.0,"outSlope":1.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0},{"serializedVersion":"3","time":1.0,"value":1.0,"inSlope":1.0,"outSlope":0.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.HydraulicErosionNode
+    jsonData: '{"m_groupId":"","m_id":"5b68778d-ea1b-44bf-a532-ee253c0eaa90","m_visualState":{"m_position":{"x":2551.500244140625,"y":-590.8999633789063},"m_collapsed":false},"m_shouldSplitExecution":true,"m_isBypassed":false,"m_resolutionOverride":1,"m_resolutionMultiplier":1.0,"m_resolutionAbsolute":1024,"m_detailLevel":0.26100000739097597,"m_iterationCount":30,"m_iterationPerFrame":1,"m_highQualityMode":true,"m_waterSourceAmount":0.5,"m_waterSourceMultiplier":1.0,"m_flowRate":1.0,"m_flowMultiplier":1.0,"m_sedimentCapacity":5.0,"m_sedimentCapacityMultiplier":1.0,"m_erosionRate":1.0,"m_erosionMultiplier":1.0,"m_depositionRate":1.0,"m_depositionMultiplier":1.0,"m_depositionSlopeFactor":1.0,"m_evaporationRate":0.10000000149011612,"m_evaporationMultiplier":1.0,"m_bedRockDepth":10.0,"m_sharpness":0.5,"m_heightScale":1.0,"m_detailHeightScale":1.0,"m_erosionBoost":1.0,"m_depositionBoost":1.0}'
+  m_edgeData:
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.Edge
+    jsonData: '{"m_id":"500c5268-d95a-44d7-970f-95e032b33492","m_outputSlot":{"m_nodeId":"7655c33d-3383-4482-9666-98618263eb02","m_slotId":100},"m_inputSlot":{"m_nodeId":"5b68778d-ea1b-44bf-a532-ee253c0eaa90","m_slotId":0}}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.Edge
+    jsonData: '{"m_id":"d9840b6d-dcd1-44da-a3db-b0c6166d501f","m_outputSlot":{"m_nodeId":"5b68778d-ea1b-44bf-a532-ee253c0eaa90","m_slotId":100},"m_inputSlot":{"m_nodeId":"8011a56f-2e64-40cd-aa79-dde4d2b887ed","m_slotId":0}}'
+  m_groupData: []
+  m_stickyNoteData: []
+  m_stickyImageData: []
+  m_objectReferences: []
+  m_debugConfigs:
+    m_resolution: 1024
+    m_worldBounds:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1000
+      height: 1000
+    m_terrainHeight: 600
+    m_seed: 1234
+    m_shouldOutputTempHeight: 0
+  m_allowSplitExecution: 1

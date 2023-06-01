@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3872193674457705443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3872193674457705440}
+  - component: {fileID: 3872193674457705441}
+  - component: {fileID: 3872193674457705446}
+  - component: {fileID: 8097323759938344051}
+  m_Layer: 0
+  m_Name: Global_Character_&_Scene_Renderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3872193674457705440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3872193674457705443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3872193674457705441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3872193674457705443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317198a42cb87f74baa60cdb5e5e1d72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _RobotLivery: {fileID: 11400000, guid: acdfc5d3866335b4b989de5f13fcb708, type: 2}
+  _TVNoise: 0
+  _ImageSequence: 0
+  _ScreenEmissionColor: {r: 0.13864839, g: 0.97608465, b: 1.0592737, a: 0}
+  _Sticker: {fileID: 2800000, guid: 53ccd777c69380c45af0613ad2ec5827, type: 3}
+--- !u!114 &3872193674457705446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3872193674457705443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4efd963d392ac2a4985879435e782ba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _BaseColor: {r: 0, g: 0.027287984, b: 0.03773582, a: 1}
+  _FrameColor: {r: 0, g: 0.061495475, b: 0.0754717, a: 1}
+  _IconsColor: {r: 0.20652369, g: 0.4243719, b: 0.4811321, a: 1}
+  _EmitColor: {r: 0.8975583, g: 4.661824, b: 8.273145, a: 1}
+  _WipeSwitchA: 0
+  _IconsOffsetA: 1.2
+  _IconsEmitA: 0
+  _WipeSwitchB: 0
+  _IconsOffsetB: 0
+  _IconsEmitB: 0
+  _WipeSwitchC: 0
+  _IconsOffsetC: 0
+  _IconsEmitC: 0
+  _CursorA: 0
+  _CursorB: 0
+  _CursorC: 0
+  _ReaderEmitA: 0
+  _ReaderEmitB: 0
+  _ReaderEmitC: 0
+--- !u!114 &8097323759938344051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3872193674457705443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66e0bf23fb007a4cb293840e596fc71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _CycloTopColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  _CycloBottomColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  _CycloHorizonOrigin: 0
+  _CycloGradiantSpread: 0.1
+  _GridColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
