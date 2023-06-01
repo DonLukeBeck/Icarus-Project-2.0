@@ -1,24 +1,24 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!43 &-7510072836441839451
+--- !u!43 &-2599639365206259611
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: platt 1 sign part LOD1
+  m_Name: platt 1 sign part LOD2
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 18
+    indexCount: 0
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 14
+    vertexCount: 0
     localAABB:
-      m_Center: {x: -0.0005000001, y: 0.005, z: 0.005}
-      m_Extent: {x: 0.0005000001, y: 0.005, z: 0.005}
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
   m_Shapes:
     vertices: []
     shapes: []
@@ -35,26 +35,14 @@ Mesh:
   m_KeepVertices: 0
   m_KeepIndices: 0
   m_IndexFormat: 1
-  m_IndexBuffer: 0000000001000000020000000300000004000000050000000300000005000000060000000700000008000000090000000a0000000b0000000c0000000a0000000c0000000d000000
+  m_IndexBuffer: 
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 14
+    m_VertexCount: 0
     m_Channels:
     - stream: 0
       offset: 0
       format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
       dimension: 0
     - stream: 0
       offset: 0
@@ -96,8 +84,20 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 560
-    _typelessdata: 701283ba0ad7233c0ad7233c00000000000000000000803f0000803f0000000000000000000080bf40c3aeb9000000000ad7233c00000000000000000000803f0000803f0000000000000000000080bf000000000ad7233c0ad7233c00000000000000000000803f0000803f0000000000000000000080bf40c32eba0000000000000080000080bf00000000000000000000803f0000000000000000000080bf40c3aeb9000000000ad7233c000080bf00000000000000000000803f0000000000000000000080bf701283ba0ad7233c0ad7233c000080bf00000000000000000000803f0000000000000000000080bf40c3aeb90ad7233c00000080000080bf00000000000000000000803f0000000000000000000080bf40c3aeb90ad7233c00000080000000000000803f000000000000803f0000000000000000000080bf701283ba0ad7233c0ad7233c000000000000803f000000000000803f0000000000000000000080bf000000000ad7233c0ad7233c000000000000803f000000000000803f0000000000000000000080bf40c3aeb90ad7233c000000800000803f00000000000000000000803f0000000000000000000080bf000000000ad7233c0ad7233c0000803f00000000000000000000803f0000000000000000000080bf40c3aeb9000000000ad7233c0000803f00000000000000000000803f0000000000000000000080bf40c32eba00000000000000800000803f00000000000000000000803f0000000000000000000080bf
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata: 
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -195,25 +195,25 @@ MonoBehaviour:
   lod5: []
   lod6: []
   lod7: []
---- !u!43 &6393380033125840615
+--- !u!43 &6998544787716969629
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: platt 1 sign part LOD2
+  m_Name: platt 1 sign part LOD1
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 6
+    indexCount: 0
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 6
+    vertexCount: 0
     localAABB:
-      m_Center: {x: -0.0005000001, y: 0.005, z: 0.005}
-      m_Extent: {x: 0.0001666667, y: 0.005, z: 0.005}
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
   m_Shapes:
     vertices: []
     shapes: []
@@ -230,26 +230,14 @@ Mesh:
   m_KeepVertices: 0
   m_KeepIndices: 0
   m_IndexFormat: 1
-  m_IndexBuffer: 000000000100000002000000030000000400000005000000
+  m_IndexBuffer: 
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 6
+    m_VertexCount: 0
     m_Channels:
     - stream: 0
       offset: 0
       format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
       dimension: 0
     - stream: 0
       offset: 0
@@ -291,8 +279,20 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 240
-    _typelessdata: 701203ba000000000ad7a33b000080bf00000000000000000000803f0000000000000000000080bf40c32eba0ad7233c0ad7233c000080bf00000000000000000000803f0000000000000000000080bf40c3aeb90ad7233c00000080000080bf00000000000000000000803f0000000000000000000080bf40c3aeb90ad7233c000000800000803f00000000000000000000803f0000000000000000000080bf40c32eba0ad7233c0ad7233c0000803f00000000000000000000803f0000000000000000000080bf701203ba000000000ad7a33b0000803f00000000000000000000803f0000000000000000000080bf
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata: 
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -347,7 +347,7 @@ Mesh:
     m_UVInfo: 0
   m_LocalAABB:
     m_Center: {x: -0.0005000001, y: 0.005, z: 0.005}
-    m_Extent: {x: 0.0001666667, y: 0.005, z: 0.005}
+    m_Extent: {x: 0.0005000001, y: 0.005, z: 0.005}
   m_MeshUsageFlags: 0
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 

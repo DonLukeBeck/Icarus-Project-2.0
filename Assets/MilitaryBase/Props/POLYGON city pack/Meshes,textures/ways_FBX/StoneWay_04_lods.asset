@@ -1,43 +1,12 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e927627221206e04dba83232f13d1949, type: 3}
-  m_Name: StoneWay_04_lods
-  m_EditorClassIdentifier: 
-  overrideDefaults: 0
-  importSettings:
-    generateOnImport: 1
-    meshSimplifier: Unity.AutoLOD.QuadricMeshSimplifier, Unity.AutoLOD.Editor, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    batcher: 
-    maxLODGenerated: 2
-    initialLODMaxPolyCount: 500000
-  lod0:
-  - {fileID: 2300000, guid: dbf2dc90616c0354c9e76aa2691a5dd3, type: 3}
-  lod1:
-  - {fileID: -5717805992434776553, guid: dbf2dc90616c0354c9e76aa2691a5dd3, type: 3}
-  lod2:
-  - {fileID: -1548470854099195230, guid: dbf2dc90616c0354c9e76aa2691a5dd3, type: 3}
-  lod3: []
-  lod4: []
-  lod5: []
-  lod6: []
-  lod7: []
---- !u!43 &3647708630698305357
+--- !u!43 &-2097035182471538410
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stone_04 LOD2
+  m_Name: Stone_04 LOD1
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -50,16 +19,6 @@ Mesh:
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 9
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 9
-    localAABB:
-      m_Center: {x: 0.00109707, y: 0.005, z: 0.0015}
-      m_Extent: {x: 0.00890293, y: 0.005, z: 0.0004999999}
   m_Shapes:
     vertices: []
     shapes: []
@@ -76,26 +35,14 @@ Mesh:
   m_KeepVertices: 0
   m_KeepIndices: 0
   m_IndexFormat: 1
-  m_IndexBuffer: 000000000100000002000000030000000400000005000000060000000800000007000000
+  m_IndexBuffer: 
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 9
+    m_VertexCount: 0
     m_Channels:
     - stream: 0
       offset: 0
       format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
       dimension: 0
     - stream: 0
       offset: 0
@@ -137,8 +84,20 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 360
-    _typelessdata: 0ad7233c0ad7233c6f12833a000000000000803f000000000000803f0000000000000000000080bf7dc1e4bba929063c6f12833a000000000000803f000000000000803f0000000000000000000080bf000000800ad7233c6e12033b000000000000803f000000000000803f0000000000000000000080bf7dc1e4bba929063c6f12833aef8384beea46773f000000000000803f0000000000000000000080bf4cc8ffbb9983dd3b6e12033bef8384beea46773f000000000000803f0000000000000000000080bf000000800ad7233c6e12033bef8384beea46773f000000000000803f0000000000000000000080bf0ad7233c000000006e12033b00000000000000000000803f0000803f0000000000000000000080bf4cc8ffbb9983dd3b6e12033b00000000000000000000803f0000803f0000000000000000ffff7fbf000000800ad7233c6e12033b00000000000000000000803f0000803f0000000000000000000080bf
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata: 
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -192,8 +151,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 0.00109707, y: 0.005, z: 0.0015}
-    m_Extent: {x: 0.00890293, y: 0.005, z: 0.0004999999}
+    m_Center: {x: 0, y: 0.005, z: 0.0015}
+    m_Extent: {x: 0.01, y: 0.005, z: 0.0004999999}
   m_MeshUsageFlags: 0
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
@@ -205,35 +164,56 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &8075142970318730534
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e927627221206e04dba83232f13d1949, type: 3}
+  m_Name: StoneWay_04_lods
+  m_EditorClassIdentifier: 
+  overrideDefaults: 0
+  importSettings:
+    generateOnImport: 1
+    meshSimplifier: Unity.AutoLOD.QuadricMeshSimplifier, Unity.AutoLOD.Editor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    batcher: 
+    maxLODGenerated: 2
+    initialLODMaxPolyCount: 500000
+  lod0:
+  - {fileID: 2300000, guid: dbf2dc90616c0354c9e76aa2691a5dd3, type: 3}
+  lod1:
+  - {fileID: -5717805992434776553, guid: dbf2dc90616c0354c9e76aa2691a5dd3, type: 3}
+  lod2:
+  - {fileID: -1548470854099195230, guid: dbf2dc90616c0354c9e76aa2691a5dd3, type: 3}
+  lod3: []
+  lod4: []
+  lod5: []
+  lod6: []
+  lod7: []
+--- !u!43 &1682045367489948410
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stone_04 LOD1
+  m_Name: Stone_04 LOD2
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 3
+    indexCount: 0
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 3
+    vertexCount: 0
     localAABB:
-      m_Center: {x: -0.0069229063, y: 0.0075, z: 0.001}
-      m_Extent: {x: 0.0030770935, y: 0.0025, z: 0}
-  - serializedVersion: 2
-    firstByte: 12
-    indexCount: 18
-    topology: 0
-    baseVertex: 0
-    firstVertex: 3
-    vertexCount: 14
-    localAABB:
-      m_Center: {x: 0.00066987285, y: 0.005, z: 0.0015}
-      m_Extent: {x: 0.009330127, y: 0.005, z: 0.0004999999}
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
   m_Shapes:
     vertices: []
     shapes: []
@@ -250,26 +230,14 @@ Mesh:
   m_KeepVertices: 0
   m_KeepIndices: 0
   m_IndexFormat: 1
-  m_IndexBuffer: 0100000002000000000000000300000004000000050000000600000007000000080000000600000008000000090000000a0000000b0000000c0000000e0000000f0000000d0000000e000000100000000f000000
+  m_IndexBuffer: 
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 17
+    m_VertexCount: 0
     m_Channels:
     - stream: 0
       offset: 0
       format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
       dimension: 0
     - stream: 0
       offset: 0
@@ -311,8 +279,20 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 680
-    _typelessdata: 0ad723bc0ad7233c6f12833a00000000000000000000803f0000803f0000000000000000000080bfbde30dbc0ad7a33b6f12833a00000000000000000000803f0000803f0000000000000000000080bf070a7cbb6e7e183c6f12833a00000000000000000000803f0000803f0000000000000000000080bf0ad7233c0ad7233c6f12833a000000000000803f000000000000803f0000000000000000000080bf070a7cbb6e7e183c6f12833a000000000000803f000000000000803f0000000000000000000080bf000000800ad7233c6e12033b000000000000803f000000000000803f0000000000000000000080bfbde30dbc0ad7a33b6f12833af40435bff104353f000000000000803f0000000000000000000080bfbde30dbc0ad7a33b6e12033bf40435bff104353f000000000000803f0000000000000000000080bf0ad7a3bbbde30d3c6e12033bf40435bff104353f000000000000803f0000000000000000000080bf070a7cbb6e7e183c6f12833af40435bff104353f000000000000803f0000000000000000000080bf070a7cbb6e7e183c6f12833aef8384beea46773f000000000000803f0000000000000000000080bf0ad7a3bbbde30d3c6e12033bef8384beea46773f000000000000803f0000000000000000000080bf000000800ad7233c6e12033bef8384beea46773f000000000000803f0000000000000000000080bfbde30dbc0ad7a33b6e12033b00000000000000000000803f0000803f0000000000000000000080bf0ad7233c000000006e12033b00000000000000000000803f0000803f0000000000000000000080bf0ad7a3bbbde30d3c6e12033b00000000000000000000803f0000803f0000000000000000000080bf000000800ad7233c6e12033b00000000000000000000803f0000803f0000000000000000000080bf
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata: 
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0

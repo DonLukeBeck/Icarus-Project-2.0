@@ -1,37 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e927627221206e04dba83232f13d1949, type: 3}
-  m_Name: Grass_stone_01_lods
-  m_EditorClassIdentifier: 
-  overrideDefaults: 0
-  importSettings:
-    generateOnImport: 1
-    meshSimplifier: Unity.AutoLOD.QuadricMeshSimplifier, Unity.AutoLOD.Editor, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    batcher: 
-    maxLODGenerated: 2
-    initialLODMaxPolyCount: 500000
-  lod0:
-  - {fileID: 2300000, guid: 0fe782be48025f043b62b5e25719953c, type: 3}
-  lod1:
-  - {fileID: -7186150100694532901, guid: 0fe782be48025f043b62b5e25719953c, type: 3}
-  lod2:
-  - {fileID: -6585493142045400544, guid: 0fe782be48025f043b62b5e25719953c, type: 3}
-  lod3: []
-  lod4: []
-  lod5: []
-  lod6: []
-  lod7: []
---- !u!43 &6495669329055359843
+--- !u!43 &-8006215353416125603
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,34 +11,14 @@ Mesh:
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 3
+    indexCount: 0
     topology: 0
     baseVertex: 0
     firstVertex: 0
-    vertexCount: 3
+    vertexCount: 0
     localAABB:
-      m_Center: {x: -0.0038268347, y: -0.00521812, z: 0.0010000002}
-      m_Extent: {x: 0.006173165, y: 0.00478188, z: 0}
-  - serializedVersion: 2
-    firstByte: 12
-    indexCount: 33
-    topology: 0
-    baseVertex: 0
-    firstVertex: 1
-    vertexCount: 18
-    localAABB:
-      m_Center: {x: 0.0009999997, y: 0.00076120533, z: 0.0015000001}
-      m_Extent: {x: 0.009, y: 0.009238794, z: 0.00049999997}
-  - serializedVersion: 2
-    firstByte: 144
-    indexCount: 12
-    topology: 0
-    baseVertex: 0
-    firstVertex: 3
-    vertexCount: 20
-    localAABB:
-      m_Center: {x: 0.0009999997, y: 0.0009999997, z: 0.001388889}
-      m_Extent: {x: 0.009, y: 0.009, z: 0.00038888888}
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0, y: 0, z: 0}
   m_Shapes:
     vertices: []
     shapes: []
@@ -86,31 +35,23 @@ Mesh:
   m_KeepVertices: 0
   m_KeepIndices: 0
   m_IndexFormat: 1
-  m_IndexBuffer: 000000000200000001000000040000000500000003000000040000000600000005000000060000000d0000000500000006000000070000000d00000003000000080000000900000002000000060000000a000000020000000a000000010000000b0000000c000000030000000d0000000e0000000f00000001000000100000000300000011000000120000000d000000130000001400000003000000030000001500000013000000150000000d000000130000000d0000001600000013000000
+  m_IndexBuffer: 
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 23
+    m_VertexCount: 0
     m_Channels:
     - stream: 0
       offset: 0
       format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
+      dimension: 0
     - stream: 0
       offset: 0
       format: 0
       dimension: 0
     - stream: 0
-      offset: 40
+      offset: 0
       format: 0
-      dimension: 2
+      dimension: 0
     - stream: 0
       offset: 0
       format: 0
@@ -147,8 +88,16 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 1104
-    _typelessdata: 0ad723bc0ad723bc7012833a00000000000000000000803f0000803f0000000000000000000080bf5bacd13871f97f3f3933f6bb2eb7e4b97012833a00000000000000000000803f0000803f0000000000000000000080bf0996663e4af1213fe4c4193b96e50abc7012833a00000000000000000000803f0000803f0000000000000000000080bfcce4763f0c2b7e3ffecbfabbc9cb533b5404e93a7117ed3b616b9e3b85fd7f3f85fd7f3f00000000c8910e3c8d987bbff9f1623b19b7433cc3ba87bbbcba87bb6f12033b00000000000000000000803f0000803f0000000000000000000080bf84fb953e3b02353ff7c632bbebc632bb6f12033b00000000000000000000803f0000803f0000000000000000000080bfe52dba3e0fe9223fe4c4193b96e50abc6f12033b00000000000000000000803f0000803f0000000000000000000080bfe7061e3fd07d6c3f0ad7233c6f1203bc6f12033b00000000000000000000803f0000803f0000000000000000000080bf71f97f3f2961663ff7c632bbebc632bb6f12033b33db543fd7390e3f0000000000000000000000000000803f0000803fe52dba3e0fe9223ff7c632bbebc632bb7012833a33db543fd7390e3f0000000000000000000000000000803f0000803fdf2dba3e11e9223fc3ba87bbbcba87bb6f12033bda390ebf31db54bf000000000000803f0000000000000000000080bf84fb953e3b02353f6f1203bc0ad7233c7012833ac0147b3fbcc5473e000000000000803f0000000000000000000080bfd5f6cc3d5bacd1386f1203bc0ad7233c6f12033bc0147b3fbcc5473e000000000000803f0000000000000000000080bfd5f6cc3d5bacd1389eed4b3b0e3fd9bb18b7d13ac5c5473ebe147b3f000000000000000000000000000080bf000080bf5fd2273f4ad8543f0ad7233c6f1203bc6f12033bc5c5473ebe147b3f0000000000000000000000000000803f000080bf71f97f3f2961663f0ad7233c6f1203bc7012833ac5c5473ebe147b3f0000000000000000000000000000803f000080bf70f97f3f2961663fc3ba87bbbcba87bb6f12033b33db54bfd8390ebf000000000000000000000000000080bf0000803f84fb953e3b02353ff7c632bbebc632bb7012833ada390e3f30db543f0000000000000000000000000000803f0000803fdf2dba3e11e9223ff7c632bbebc632bb6f12033bda390e3f30db543f0000000000000000000000000000803f0000803fe52dba3e0fe9223f0ad7233c0ad7233c7012833a00000000000000000000803f0000803f0000000000000000000080bf73f97f3f5bacd1386f1203bc0ad7233c7012833a00000000000000000000803f0000803f0000000000000000000080bfd5f6cc3d5bacd138f7c632bbebc632bb7012833a00000000000000000000803f0000803f0000000000000000000080bfdf2dba3e11e9223f0ad7233c6f1203bc7012833a00000000000000000000803f0000803f0000000000000000000080bf70f97f3f2961663f
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata: 
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -215,7 +164,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &7084873225821962219
+--- !u!43 &-2890748961574457061
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -234,26 +183,6 @@ Mesh:
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 12
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 8
-    localAABB:
-      m_Center: {x: -0.0024441516, y: 0.001247796, z: 0.0015000001}
-      m_Extent: {x: 0.0055558486, y: 0.008752204, z: 0.00049999997}
-  - serializedVersion: 2
-    firstByte: 48
-    indexCount: 12
-    topology: 0
-    baseVertex: 0
-    firstVertex: 1
-    vertexCount: 11
-    localAABB:
-      m_Center: {x: 0.0009999997, y: 0.0009999997, z: 0.001388889}
-      m_Extent: {x: 0.009, y: 0.009, z: 0.00038888888}
   m_Shapes:
     vertices: []
     shapes: []
@@ -270,31 +199,23 @@ Mesh:
   m_KeepVertices: 0
   m_KeepIndices: 0
   m_IndexFormat: 1
-  m_IndexBuffer: 010000000200000003000000040000000500000001000000000000000200000001000000070000000200000006000000080000000900000001000000010000000a000000080000000a0000000600000008000000060000000b00000008000000
+  m_IndexBuffer: 
   m_VertexData:
     serializedVersion: 3
-    m_VertexCount: 12
+    m_VertexCount: 0
     m_Channels:
     - stream: 0
       offset: 0
       format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
+      dimension: 0
     - stream: 0
       offset: 0
       format: 0
       dimension: 0
     - stream: 0
-      offset: 40
+      offset: 0
       format: 0
-      dimension: 2
+      dimension: 0
     - stream: 0
       offset: 0
       format: 0
@@ -331,8 +252,16 @@ Mesh:
       offset: 0
       format: 0
       dimension: 0
-    m_DataSize: 576
-    _typelessdata: 6187aabb5687aabb7012833a00000000000000000000803f0000803f0000000000000000000080bfa304c73ec8ba543ffecbfabbc9cb533b5404e93a7117ed3b616b9e3b85fd7f3f85fd7f3f00000000c8910e3c8d987bbff9f1623b19b7433c6a24bc3989e7f5bb6f12033bb237e6b78ed399b70000803f0000803f00000000996f0ab8220280bfb510993e1789363ff7c632bbebc632bb7012833a33db543fd7390e3f0000000000000000000000000000803f0000803fdf2dba3e11e9223f6f1203bc0ad7233c7012833ac0147b3fbcc5473e000000000000803f0000000000000000000080bfd5f6cc3d5bacd1386f1203bc0ad7233c6f12033bc0147b3fbcc5473e000000000000803f0000000000000000000080bfd5f6cc3d5bacd1389eed4b3b0e3fd9bb0f74da3ac5c5473ebe147b3f000000000000000000000000000080bf000080bf5fd2273f4ad8543ff7c632bbebc632bb7012833ada390e3f30db543f0000000000000000000000000000803f0000803fdf2dba3e11e9223f0ad7233c0ad7233c7012833a00000000000000000000803f0000803f0000000000000000000080bf73f97f3f5bacd1386f1203bc0ad7233c7012833a00000000000000000000803f0000803f0000000000000000000080bfd5f6cc3d5bacd138f7c632bbebc632bb7012833a00000000000000000000803f0000803f0000000000000000000080bfdf2dba3e11e9223f0ad7233c6f1203bc7012833a00000000000000000000803f0000803f0000000000000000000080bf70f97f3f2961663f
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 0
+    _typelessdata: 
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -386,8 +315,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 0.0009999997, y: 0.0009999997, z: 0.0015000001}
-    m_Extent: {x: 0.009, y: 0.009, z: 0.00049999997}
+    m_Center: {x: 0, y: 0, z: 0.0015000001}
+    m_Extent: {x: 0.01, y: 0.01, z: 0.00049999997}
   m_MeshUsageFlags: 0
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
@@ -399,3 +328,34 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e927627221206e04dba83232f13d1949, type: 3}
+  m_Name: Grass_stone_01_lods
+  m_EditorClassIdentifier: 
+  overrideDefaults: 0
+  importSettings:
+    generateOnImport: 1
+    meshSimplifier: Unity.AutoLOD.QuadricMeshSimplifier, Unity.AutoLOD.Editor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    batcher: 
+    maxLODGenerated: 2
+    initialLODMaxPolyCount: 500000
+  lod0:
+  - {fileID: 2300000, guid: 0fe782be48025f043b62b5e25719953c, type: 3}
+  lod1:
+  - {fileID: -7186150100694532901, guid: 0fe782be48025f043b62b5e25719953c, type: 3}
+  lod2:
+  - {fileID: -6585493142045400544, guid: 0fe782be48025f043b62b5e25719953c, type: 3}
+  lod3: []
+  lod4: []
+  lod5: []
+  lod6: []
+  lod7: []
