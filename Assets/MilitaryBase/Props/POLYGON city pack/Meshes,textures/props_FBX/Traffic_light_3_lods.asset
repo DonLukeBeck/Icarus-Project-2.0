@@ -31,13 +31,13 @@ MonoBehaviour:
   lod5: []
   lod6: []
   lod7: []
---- !u!43 &861245610700751405
+--- !u!43 &6263104242791488330
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Traffic_light_1 LOD1
+  m_Name: Traffic_light_1 LOD2
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -195,13 +195,13 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &4777016743576313833
+--- !u!43 &8324296999800453555
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Traffic_light_1 LOD2
+  m_Name: Traffic_light_1 LOD1
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
