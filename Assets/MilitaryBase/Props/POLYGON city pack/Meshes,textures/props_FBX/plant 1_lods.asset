@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!43 &-8247511343474468414
+--- !u!43 &-9111938125786730987
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: plant 1 LOD2
-  serializedVersion: 10
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -154,6 +154,7 @@ Mesh:
     m_Center: {x: 0.00008436013, y: -0.00000044488115, z: 0.00036847492}
     m_Extent: {x: 0.0016512077, y: 0.0017580737, z: 0.00036847492}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -164,14 +165,14 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &-1859423657883754842
+--- !u!43 &-4991792894828755997
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: plant 1 LOD1
-  serializedVersion: 10
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -318,6 +319,7 @@ Mesh:
     m_Center: {x: 0.00008436013, y: -0.00000044488115, z: 0.00036847492}
     m_Extent: {x: 0.0016512077, y: 0.0017580737, z: 0.00036847492}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1

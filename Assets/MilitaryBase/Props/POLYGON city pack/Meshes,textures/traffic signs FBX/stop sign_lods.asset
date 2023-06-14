@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!43 &-6019076576169069848
+--- !u!43 &-1295951244978788263
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: sign cycle form LOD1
-  serializedVersion: 10
+  m_Name: sign cycle form LOD2
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -154,6 +154,7 @@ Mesh:
     m_Center: {x: 0.009597024, y: -0.000002254732, z: -0.010266268}
     m_Extent: {x: 0.00958596, y: 0.002486775, z: 0.00035496242}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -195,14 +196,14 @@ MonoBehaviour:
   lod5: []
   lod6: []
   lod7: []
---- !u!43 &583202092374083043
+--- !u!43 &679985397845272893
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: sign cycle form LOD2
-  serializedVersion: 10
+  m_Name: sign cycle form LOD1
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -349,6 +350,7 @@ Mesh:
     m_Center: {x: 0.009597024, y: -0.000002254732, z: -0.010266268}
     m_Extent: {x: 0.00958596, y: 0.002486775, z: 0.00035496242}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1

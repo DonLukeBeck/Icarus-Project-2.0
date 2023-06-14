@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!43 &-7415539304917823732
+--- !u!43 &-9000188913770951039
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stone_01 LOD2
-  serializedVersion: 10
+  m_Name: Stone_01 LOD1
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -154,6 +154,7 @@ Mesh:
     m_Center: {x: 0, y: 0, z: 0.0015}
     m_Extent: {x: 0.01, y: 0.01, z: 0.0004999999}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -195,14 +196,14 @@ MonoBehaviour:
   lod5: []
   lod6: []
   lod7: []
---- !u!43 &676465213799579449
+--- !u!43 &7106521824787010887
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stone_01 LOD1
-  serializedVersion: 10
+  m_Name: Stone_01 LOD2
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -349,6 +350,7 @@ Mesh:
     m_Center: {x: 0, y: 0, z: 0.0015}
     m_Extent: {x: 0.01, y: 0.01, z: 0.0004999999}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1

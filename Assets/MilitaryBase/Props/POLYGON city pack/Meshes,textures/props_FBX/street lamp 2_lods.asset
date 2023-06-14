@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!43 &-788165304164925377
+--- !u!43 &-1988053987928438882
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Cylinder LOD2
-  serializedVersion: 10
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -154,6 +154,7 @@ Mesh:
     m_Center: {x: -0.000000013387762, y: 0.0000000020954758, z: 0.02544808}
     m_Extent: {x: 0.0035464843, y: 0.003546484, z: 0.02544808}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -195,14 +196,14 @@ MonoBehaviour:
   lod5: []
   lod6: []
   lod7: []
---- !u!43 &1052766706875390645
+--- !u!43 &1867405212121861376
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Cylinder LOD1
-  serializedVersion: 10
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -349,6 +350,7 @@ Mesh:
     m_Center: {x: -0.000000013387762, y: 0.0000000020954758, z: 0.02544808}
     m_Extent: {x: 0.0035464843, y: 0.003546484, z: 0.02544808}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1

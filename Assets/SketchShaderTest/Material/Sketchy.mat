@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -23,6 +23,8 @@ Material:
   m_Name: Sketchy
   m_Shader: {fileID: -6465566751694194690, guid: 5ec6557369453514c905861b1f0c16e2,
     type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _MAIN_LIGHT_SHADOWS
   - _MAIN_LIGHT_SHADOWS_CASCADE
@@ -34,6 +36,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -93,6 +96,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 31014fc7113bea84f8df65d538b061ee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_64df4cbfe315407eb12d37c7cdb57201_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 31014fc7113bea84f8df65d538b061ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_98eeb3800b0f4c638baf8f2800bb74ab_Texture_1:
         m_Texture: {fileID: 2800000, guid: 31014fc7113bea84f8df65d538b061ee, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -101,7 +108,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: 31014fc7113bea84f8df65d538b061ee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9967d11ee3864a18bb8ec082da6cadec_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 31014fc7113bea84f8df65d538b061ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_aba1b36f854344d48e9743c4bf9af70d_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 31014fc7113bea84f8df65d538b061ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_aba1b36f854344d48e9743c4bf9af70d_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 31014fc7113bea84f8df65d538b061ee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}

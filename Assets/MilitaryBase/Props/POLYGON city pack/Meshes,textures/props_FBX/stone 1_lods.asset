@@ -31,14 +31,14 @@ MonoBehaviour:
   lod5: []
   lod6: []
   lod7: []
---- !u!43 &954049302729356948
+--- !u!43 &4221929246662418183
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: stone 1 LOD2
-  serializedVersion: 10
+  m_Name: stone 1 LOD1
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -185,6 +185,7 @@ Mesh:
     m_Center: {x: 0.0009855737, y: -0.0001536539, z: 0.0019826351}
     m_Extent: {x: 0.0028978405, y: 0.0017303183, z: 0.0014731673}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -195,14 +196,14 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &3462662553835139925
+--- !u!43 &7651023940977865333
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: stone 1 LOD1
-  serializedVersion: 10
+  m_Name: stone 1 LOD2
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -349,6 +350,7 @@ Mesh:
     m_Center: {x: 0.0009855737, y: -0.0001536539, z: 0.0019826351}
     m_Extent: {x: 0.0028978405, y: 0.0017303183, z: 0.0014731673}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1

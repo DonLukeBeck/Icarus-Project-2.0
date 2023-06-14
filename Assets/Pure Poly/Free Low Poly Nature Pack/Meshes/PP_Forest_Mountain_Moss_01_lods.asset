@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!43 &-4244013791536366545
+--- !u!43 &-3708458699605613116
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PP_Forest_Mountain_Moss_01 LOD1
-  serializedVersion: 10
+  m_Name: PP_Forest_Mountain_Moss_01 LOD2
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -154,6 +154,7 @@ Mesh:
     m_Center: {x: -1.0399694, y: 10.47111, z: -0.39777565}
     m_Extent: {x: 17.741909, y: 10.47111, z: 17.365932}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -195,14 +196,14 @@ MonoBehaviour:
   lod5: []
   lod6: []
   lod7: []
---- !u!43 &1632853429814509968
+--- !u!43 &6739996868622358192
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PP_Forest_Mountain_Moss_01 LOD2
-  serializedVersion: 10
+  m_Name: PP_Forest_Mountain_Moss_01 LOD1
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -349,6 +350,7 @@ Mesh:
     m_Center: {x: -1.0399694, y: 10.47111, z: -0.39777565}
     m_Extent: {x: 17.741909, y: 10.47111, z: 17.365932}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1

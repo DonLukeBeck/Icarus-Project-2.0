@@ -31,14 +31,14 @@ MonoBehaviour:
   lod5: []
   lod6: []
   lod7: []
---- !u!43 &4622352811614626348
+--- !u!43 &196803349552652660
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cube LOD2
-  serializedVersion: 10
+  m_Name: Cube LOD1
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -185,6 +185,7 @@ Mesh:
     m_Center: {x: -0.000003042689, y: -0.0008667418, z: 0.00011736929}
     m_Extent: {x: 0.0007584998, y: 0.0010080076, z: 0.0015880363}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -195,14 +196,14 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &7755365278932757520
+--- !u!43 &1075435178792010209
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cube LOD1
-  serializedVersion: 10
+  m_Name: Cube LOD2
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -349,6 +350,7 @@ Mesh:
     m_Center: {x: -0.000003042689, y: -0.0008667418, z: 0.00011736929}
     m_Extent: {x: 0.0007584998, y: 0.0010080076, z: 0.0015880363}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1

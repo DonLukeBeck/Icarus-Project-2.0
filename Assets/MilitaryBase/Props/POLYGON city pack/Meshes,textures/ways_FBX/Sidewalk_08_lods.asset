@@ -31,14 +31,14 @@ MonoBehaviour:
   lod5: []
   lod6: []
   lod7: []
---- !u!43 &1414198338105015146
+--- !u!43 &2409841197756384928
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sidewalk_08 LOD1
-  serializedVersion: 10
+  m_Name: Sidewalk_08 LOD2
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -185,6 +185,7 @@ Mesh:
     m_Center: {x: 0.000000016298145, y: -0.000000006519258, z: 0.00049999746}
     m_Extent: {x: 0.010000018, y: 0.010000001, z: 0.00049999816}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
@@ -195,14 +196,14 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &8838093642276603859
+--- !u!43 &5219247380633321057
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sidewalk_08 LOD2
-  serializedVersion: 10
+  m_Name: Sidewalk_08 LOD1
+  serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -349,6 +350,7 @@ Mesh:
     m_Center: {x: 0.000000016298145, y: -0.000000006519258, z: 0.00049999746}
     m_Extent: {x: 0.010000018, y: 0.010000001, z: 0.00049999816}
   m_MeshUsageFlags: 0
+  m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
