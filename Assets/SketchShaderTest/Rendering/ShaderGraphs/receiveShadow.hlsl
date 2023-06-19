@@ -26,11 +26,11 @@ float CalculateCustomLighting(CustomLightingData d) {
     return 1; 
 #else
     Light mainLight = GetMainLight(d.shadowCoord, d.positionWS, 1);
-    float intensity = saturate(dot(d.normalWS, mainLight.direction));
+    float intensity = (dot(d.normalWS, mainLight.direction) + 1 ) * 0.5f;
 
     // Get the main light. Located in URP/ShaderLibrary/Lighting.hlsl
 
-    return intensity * mainLight.shadowAttenuation;
+    return saturate(intensity * (mainLight.shadowAttenuation + 1.0f) * 0.5f);
 #endif
 
 }

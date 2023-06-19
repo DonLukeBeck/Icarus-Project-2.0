@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!43 &-8096745299439632554
+--- !u!43 &-3352909258632831512
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,47 +165,13 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e927627221206e04dba83232f13d1949, type: 3}
-  m_Name: Building_I_2_lods
-  m_EditorClassIdentifier: 
-  overrideDefaults: 0
-  importSettings:
-    generateOnImport: 1
-    meshSimplifier: Unity.AutoLOD.QuadricMeshSimplifier, Unity.AutoLOD.Editor, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    batcher: 
-    maxLODGenerated: 2
-    initialLODMaxPolyCount: 500000
-  lod0:
-  - {fileID: 2300000, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
-  - {fileID: 6543993361299888323, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
-  lod1:
-  - {fileID: -7160743433865393581, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
-  - {fileID: -1559946269343789114, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
-  lod2:
-  - {fileID: -3730385165783282467, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
-  - {fileID: -473162622185098236, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
-  lod3: []
-  lod4: []
-  lod5: []
-  lod6: []
-  lod7: []
---- !u!43 &2838499693270354959
+--- !u!43 &-733603302038022531
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Building_I LOD1
+  m_Name: Fire_escape_leader LOD2
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -350,8 +316,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 0.05714163, y: 0.042600017, z: 0.07034892}
-    m_Extent: {x: 0.06833251, y: 0.035224024, z: 0.07034892}
+    m_Center: {x: -0.0077816145, y: 0.0043113427, z: 0.047052376}
+    m_Extent: {x: 0.016499978, y: 0.0059468457, z: 0.03549339}
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
@@ -364,7 +330,41 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &7680957080192063185
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e927627221206e04dba83232f13d1949, type: 3}
+  m_Name: Building_I_2_lods
+  m_EditorClassIdentifier: 
+  overrideDefaults: 0
+  importSettings:
+    generateOnImport: 1
+    meshSimplifier: Unity.AutoLOD.QuadricMeshSimplifier, Unity.AutoLOD.Editor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    batcher: 
+    maxLODGenerated: 2
+    initialLODMaxPolyCount: 500000
+  lod0:
+  - {fileID: 2300000, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
+  - {fileID: 6543993361299888323, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
+  lod1:
+  - {fileID: -7160743433865393581, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
+  - {fileID: -1559946269343789114, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
+  lod2:
+  - {fileID: -3730385165783282467, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
+  - {fileID: -473162622185098236, guid: 9f70c3b25552f8c4cbfc2dc5b60b2c0e, type: 3}
+  lod3: []
+  lod4: []
+  lod5: []
+  lod6: []
+  lod7: []
+--- !u!43 &1988003497886691353
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -529,13 +529,13 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &7784955192318233764
+--- !u!43 &8200468893758305310
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fire_escape_leader LOD2
+  m_Name: Building_I LOD1
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -680,8 +680,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: -0.0077816145, y: 0.0043113427, z: 0.047052376}
-    m_Extent: {x: 0.016499978, y: 0.0059468457, z: 0.03549339}
+    m_Center: {x: 0.05714163, y: 0.042600017, z: 0.07034892}
+    m_Extent: {x: 0.06833251, y: 0.035224024, z: 0.07034892}
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 

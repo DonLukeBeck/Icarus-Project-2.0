@@ -174,16 +174,24 @@ Material:
     - _QueueOffset: 0
     - _Radial_scale_distort: 1
     - _ReceiveShadows: 1
+    - _ReflectionSaturation: 0
     - _SHADOWS_SOFT: 1
-    - _Saturation: 0.827
-    - _ShadowIntensity: 0.59
+    - _Saturation: 0.834
+    - _ShadowIntensity: 0
+    - _ShadowOffset: 0.849
+    - _ShadowStep1: -0.09
+    - _ShadowStep2: 0.923
+    - _ShadowStep3: 0.99
     - _Smoothness: 4
     - _SmoothnessTextureChannel: 0
     - _Specular: 1
     - _SpecularHighlights: 1
-    - _SpecularOutlineWidth: 0.015
-    - _Specularity: 0.233
+    - _SpecularOutlineWidth: 0
+    - _Specularity: 0
     - _SrcBlend: 1
+    - _StepOne: 0.45
+    - _StepThree: 0.15
+    - _StepTwo: 0.3
     - _Surface: 0
     - _Tiling: 1.45
     - _WorkflowMode: 1
