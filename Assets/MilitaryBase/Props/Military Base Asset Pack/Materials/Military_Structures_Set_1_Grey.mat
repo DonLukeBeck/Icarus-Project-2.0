@@ -131,15 +131,17 @@ Material:
     - _ReflectionIntensity: 1
     - _ReflectionSaturation: 0
     - _Saturation: 1
-    - _ShadowDotRadius: 0.4
-    - _ShadowIntensity: 0.01
+    - _ShadowDotRadius: 0
+    - _ShadowIntensity: 0
+    - _ShadowTiling: 20
     - _SmoothnessTextureChannel: 0
     - _SpecularDotRadius: 0.4
+    - _SpecularDotTiling: 20
     - _SpecularHighlights: 1
     - _SpecularOutlineWidth: 0
     - _Specularity: 0
     - _SrcBlend: 1
-    - _StepHardShadow: 0.3
+    - _StepHardShadow: 0.4
     - _StepOne: 0
     - _StepThree: 0
     - _StepTwo: 0
