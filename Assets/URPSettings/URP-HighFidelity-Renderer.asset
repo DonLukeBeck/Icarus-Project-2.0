@@ -114,14 +114,14 @@ MonoBehaviour:
     m_Bits: 8
   outlinesOccluderLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 129
   outlineSettings:
     outlineColor: {r: 0, g: 0, b: 0, a: 1}
-    outlineScale: 0.5
-    depthThreshold: 0.05
-    robertsCrossMultiplier: 1
+    outlineScale: 0.3
+    depthThreshold: 0.5
+    robertsCrossMultiplier: 3
     normalThreshold: 0.25
-    steepAngleThreshold: 0
+    steepAngleThreshold: 1
     steepAngleMultiplier: 115
   viewSpaceNormalsTextureSettings:
     colorFormat: 0
