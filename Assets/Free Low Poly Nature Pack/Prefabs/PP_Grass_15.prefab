@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2530833917138892884}
   - component: {fileID: 359060090621398174}
   - component: {fileID: 2304540294968618314}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: PP_Grass_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}

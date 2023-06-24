@@ -1,37 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e927627221206e04dba83232f13d1949, type: 3}
-  m_Name: traffic sign 5_lods
-  m_EditorClassIdentifier: 
-  overrideDefaults: 0
-  importSettings:
-    generateOnImport: 1
-    meshSimplifier: Unity.AutoLOD.QuadricMeshSimplifier, Unity.AutoLOD.Editor, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    batcher: 
-    maxLODGenerated: 2
-    initialLODMaxPolyCount: 500000
-  lod0:
-  - {fileID: -6896050132762164704, guid: 8083cf2924f996c40934f9ef3fc85a49, type: 3}
-  lod1:
-  - {fileID: 6437673252119201742, guid: 8083cf2924f996c40934f9ef3fc85a49, type: 3}
-  lod2:
-  - {fileID: -4201268006959346616, guid: 8083cf2924f996c40934f9ef3fc85a49, type: 3}
-  lod3: []
-  lod4: []
-  lod5: []
-  lod6: []
-  lod7: []
---- !u!43 &1640310468137465276
+--- !u!43 &-7545745787582103318
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,7 +165,38 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &4605955169632751062
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e927627221206e04dba83232f13d1949, type: 3}
+  m_Name: traffic sign 5_lods
+  m_EditorClassIdentifier: 
+  overrideDefaults: 0
+  importSettings:
+    generateOnImport: 1
+    meshSimplifier: Unity.AutoLOD.QuadricMeshSimplifier, Unity.AutoLOD.Editor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    batcher: 
+    maxLODGenerated: 2
+    initialLODMaxPolyCount: 500000
+  lod0:
+  - {fileID: -6896050132762164704, guid: 8083cf2924f996c40934f9ef3fc85a49, type: 3}
+  lod1:
+  - {fileID: 6437673252119201742, guid: 8083cf2924f996c40934f9ef3fc85a49, type: 3}
+  lod2:
+  - {fileID: -4201268006959346616, guid: 8083cf2924f996c40934f9ef3fc85a49, type: 3}
+  lod3: []
+  lod4: []
+  lod5: []
+  lod6: []
+  lod7: []
+--- !u!43 &8149225599447650237
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

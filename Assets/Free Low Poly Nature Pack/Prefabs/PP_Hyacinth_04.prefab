@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1577860368274209317}
   - component: {fileID: 3603258950968299247}
   - component: {fileID: 2954823824624447291}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: PP_Hyacinth_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}

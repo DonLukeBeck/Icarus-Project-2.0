@@ -1,12 +1,12 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!43 &-7778030844294054140
+--- !u!43 &-8724661751066692491
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tree_holder LOD2
+  m_Name: Tree_holder LOD1
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -165,13 +165,13 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!43 &-5923887949839522662
+--- !u!43 &-170464951560076717
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tree_holder LOD1
+  m_Name: Tree_holder LOD2
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
