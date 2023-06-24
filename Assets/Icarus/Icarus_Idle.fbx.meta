@@ -3,7 +3,12 @@ guid: a6aef03313260414aa736c83c968ab06
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IcarusFaceRig_face_control_lambert4
+    second: {fileID: 2100000, guid: 3348005191c91f94bb3289879c2ec3ac, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

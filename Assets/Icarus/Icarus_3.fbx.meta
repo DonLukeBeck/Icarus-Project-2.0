@@ -3,7 +3,22 @@ guid: bd59314773da16f48ab8e3d6642035d5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IcarusFaceRig_face_control_lambert4
+    second: {fileID: 2100000, guid: 3348005191c91f94bb3289879c2ec3ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wing1_Wing___scene_8_WingTex
+    second: {fileID: 2100000, guid: fccab080510287342af0206e45ac2d1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wing_Wing___scene_8_WingTex
+    second: {fileID: 2100000, guid: 34d3c0ade2b9e7d4f917321883cdd7f6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
